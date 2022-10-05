@@ -128,11 +128,11 @@ STORAGE = os.path.join(BASE_DIR, 'storage')
 AUTH_USER_MODEL = 'accounts.User'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-EMAIL_HOST = 'smtp.mail.ru'
-EMAIL_HOST_USER = 'netologyzolotovadiplom@mail.ru'
-EMAIL_HOST_PASSWORD = '7G-/?P;ndC,PQyS'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '465'
 EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'username'
+EMAIL_HOST_PASSWORD = 'password'
 SERVER_EMAIL = EMAIL_HOST_USER
 
 REST_FRAMEWORK = {
